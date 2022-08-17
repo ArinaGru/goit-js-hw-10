@@ -78,7 +78,7 @@ refs.input.addEventListener(
   debounce(e => {
     clearList();
     clearCountryInfo();
-    country = refs.input.value.trim();
+    const country = refs.input.value.trim();
 
     if (country.length === 0) {
       return;
